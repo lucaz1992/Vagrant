@@ -1,0 +1,6 @@
+- name: Set up infra
+  hosts: all
+  become: true
+  roles:
+  - infrastructure
+  - sonarqube
